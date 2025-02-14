@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    height: 5vh;
+    width: 100vw;
+    background-color: red;
+  }
+  
+  main {
+    height: 85vh;
+    width: 100vw;
+    background-color: green;
+  }
+  
+  footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: blue;
+  }
+  
+  header,
+  main,
+  footer {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-self: center;
+  }
+  

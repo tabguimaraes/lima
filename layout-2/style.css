@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: large;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+header {
+  height: 5vh;
+  width: 100vw;
+  background-color: red;
+}
+
+div {
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+}
+
+nav,
+aside {
+  width: 10vw;
+}
+
+nav {
+  background-color: violet;
+}
+
+article {
+  width: 80vw;
+  background-color: green;
+}
+
+aside {
+  background-color: burlywood;
+}
+
+nav,
+article,
+aside {
+  height: 100%;
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+header,
+nav,
+article,
+aside,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
